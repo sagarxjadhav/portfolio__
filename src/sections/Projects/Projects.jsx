@@ -1,8 +1,8 @@
 import styles from './ProjectsStyles.module.css';
-import viberr from '../../assets/viberr.png';
-import freshBurger from '../../assets/fresh-burger.png';
-import hipsster from '../../assets/hipsster.png';
-import fitLift from '../../assets/fitlift.png';
+import pblProject from '../../assets/pblProject.png';
+import busTimeTable from '../../assets/busTimeTable.png';
+import FashionAnimation from '../../assets/FashionAnimation.png';
+import RealEstate from '../../assets/RealEstate.png';
 import ProjectCard from '../../common/ProjectCard';
 
 function Projects() {
@@ -11,28 +11,28 @@ function Projects() {
       <h1 className="sectionTitle">Projects</h1>
       <div className={styles.projectsContainer}>
         <ProjectCard
-          src={viberr}
-          link="https://github.com/Ade-mir/company-landing-page-2"
-          h3="Viberr"
-          p="Streaming App"
+          src={pblProject}
+          link="https://sagarxjadhav.github.io/PBL/"
+          h3="E-Library"
+          p="HTML, CSS, JS"
         />
         <ProjectCard
-          src={freshBurger}
-          link="https://github.com/Ade-mir/company-landing-page-2"
-          h3="Fresh Burger"
-          p="Hamburger Restaurant"
+          src={busTimeTable}
+          link="https://bus-time-git-main-sagars-projects-42f76f5b.vercel.app/"
+          h3="MSRTC Bus"
+          p="React.js, TailWind Css"
         />
         <ProjectCard
-          src={hipsster}
-          link="https://github.com/Ade-mir/company-landing-page-2"
-          h3="Hipsster"
-          p="Glasses Shop"
+          src={FashionAnimation}
+          link="https://sagarxjadhav.github.io/Fashion-Hub/"
+          h3="Animation Website"
+          p="Shery.js"
         />
         <ProjectCard
-          src={fitLift}
-          link="https://github.com/Ade-mir/company-landing-page-2"
-          h3="FitLift"
-          p="Fitness App"
+          src={RealEstate}
+          link="https://sagarxjadhav.github.io/RealEstate/"
+          h3="Real Estate"
+          p="Scrolltrigger, Locomotive"
         />
       </div>
     </section>
